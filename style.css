@@ -57,6 +57,32 @@
 .card-header-item, .card-body-item {
     padding: 10px 13px;
 }
+ .card-body-item p{
+margin: 0;
+padding: 0;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.section-3-row h5{
+    font-size: 20px;
+   padding-top: 80%;
+   padding-left: 5%;
+   padding-right: -10%;
+}
+
+.hero-text h3,
+.hero-text p{
+    margin-bottom: 20px;
+}
+.section3 p{
+    line-height: 30px;
+  }
+
+
+
 
 @media screen and (max-width: 992px) {
     .card-overall-section {
@@ -72,8 +98,24 @@
     .svg2{
         margin-top: -5px;
     }
-   
-}
+    .section3{
+        text-align: center;
+    }
+    .container{
+        text-align: center;
+    }
+    h5{
+      width: 100%;
+    }
+    .section-3-row h5{
+        padding: 0;
+        font-size: 22px;
+    }
+  .imgsection{
+    width: 100%;
+  }
+
+} 
 @media screen and (min-width: 1000px){
     .svg1{
         margin-bottom: -5px; 
