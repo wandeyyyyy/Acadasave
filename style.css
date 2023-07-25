@@ -68,7 +68,7 @@ padding: 0;
 .hero-text, .section4Text, .section5Text{
     line-height: 30px;
 }
-.hero-text h3, .hero-text p, .section4Text h3, .section4Text p{
+.hero-text h3, .hero-text p, .section4Text h3, .section4Text p,.section5Text h3{
 margin-bottom: 30px;
 }
 
