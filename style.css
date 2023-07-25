@@ -100,7 +100,7 @@ margin-bottom: 30px;
 .section4Text, .section5Text{
     width: 60%;
 }
-.sect5{
+.section-five{
     margin: 10% auto;
 }
 
@@ -113,8 +113,14 @@ margin-bottom: 30px;
 @media screen and (max-width: 992px) {
     .card-overall-section {
         flex-direction: column;
+  
     }
-
+    .section-four{
+        margin-top: 30px;
+    }
+.section-four,.section-three,.section-five{
+    padding-bottom: 25px;
+}
 
     .card-item {
         margin: 0 0 20px 0;
