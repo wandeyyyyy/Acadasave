@@ -64,22 +64,48 @@ padding: 0;
 .section3{
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
-.section-3-row h5{
-    font-size: 20px;
-   padding-top: 80%;
-   padding-left: 5%;
-   padding-right: -10%;
+.hero-text, .section4Text, .section5Text{
+    line-height: 30px;
+}
+.hero-text h3, .hero-text p, .section4Text h3, .section4Text p{
+margin-bottom: 30px;
 }
 
-.hero-text h3,
-.hero-text p{
-    margin-bottom: 20px;
+.img5{
+    float: right;
+    margin-top: -10%;
 }
-.section3 p{
-    line-height: 30px;
-  }
+.spectar2{
+  
+    display: flex;
+    align-items: center;
+}
+.spectar2 .section-3-row h5{
+    margin-top: -50px;
+    margin-left: 50px;
+    margin-right: -35px;
+    font-size: 17px;
+}
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionText4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4Text, .section5Text{
+    width: 60%;
+}
+.sect5{
+    margin: 10% auto;
+}
+
+
+
 
 
 
@@ -99,29 +125,68 @@ padding: 0;
         margin-top: -5px;
     }
     .section3{
-        text-align: center;
+    text-align: center;
     }
-    .container{
-        text-align: center;
-    }
-    h5{
+ h5{
       width: 100%;
     }
-    .section-3-row h5{
-        padding: 0;
-        font-size: 22px;
-    }
+ 
   .imgsection{
-    width: 100%;
+    width: 90%;
   }
+  .spectar2{
+    flex-direction: column;
+  }
+  .spectar2 .section-3-row h5{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 700;
+  }
+  .img5{
+    margin-top: 25px;
+  }
+  .img6{
+    width: 90%;
+    margin-top: 25px;
+  }
+  .section4Text{
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .section5Text{
+   width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+ 
+
 
 } 
+@media (min-width: 992px) and (max-width:1080px){
+.imgsection{
+    width: 90%;
+
+}
+.svg1{
+    margin-bottom: -5px; 
+  }
+  .svg2{
+      margin-top: -5px;
+  }
+}
 @media screen and (min-width: 1000px){
     .svg1{
         margin-bottom: -5px; 
       }
       .svg2{
         margin-top: -5px;
+    }
+    .imgsection{
+        width: 90%;
+    
     }
       
 }
