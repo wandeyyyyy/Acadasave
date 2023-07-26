@@ -77,7 +77,6 @@ margin-bottom: 30px;
     margin-top: -10%;
 }
 .spectar2{
-  
     display: flex;
     align-items: center;
 }
@@ -85,7 +84,8 @@ margin-bottom: 30px;
     margin-top: -50px;
     margin-left: 50px;
     margin-right: -35px;
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: 700;
 }
 .section4{
     display: flex;
@@ -104,16 +104,9 @@ margin-bottom: 30px;
     margin: 10% auto;
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 992px) {
     .card-overall-section {
         flex-direction: column;
-  
     }
     .section-four{
         margin-top: 30px;
@@ -168,14 +161,11 @@ margin-bottom: 30px;
     margin-top: 25px;
     margin-bottom: 25px;
   }
- 
-
 
 } 
 @media (min-width: 992px) and (max-width:1080px){
 .imgsection{
-    width: 90%;
-
+  width: 90%;
 }
 .svg1{
     margin-bottom: -5px; 
@@ -192,8 +182,7 @@ margin-bottom: 30px;
         margin-top: -5px;
     }
     .imgsection{
-        width: 90%;
-    
+        width: 90%; 
     }
       
 }
