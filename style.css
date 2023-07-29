@@ -111,6 +111,9 @@ margin-bottom: 30px;
     .section-four{
         margin-top: 30px;
     }
+    .myrow{
+        flex-direction: column-reverse;
+    }
 .section-four,.section-three,.section-five{
     padding-bottom: 25px;
 }
@@ -162,6 +165,7 @@ margin-bottom: 30px;
     margin-bottom: 25px;
   }
 
+
 } 
 @media (min-width: 992px) and (max-width:1080px){
 .imgsection{
@@ -182,9 +186,9 @@ margin-bottom: 30px;
         margin-top: -5px;
     }
     .imgsection{
-        width: 90%; 
-    }
-      
+        width: 9 0%; 
+    }     
+
 }
 
 
