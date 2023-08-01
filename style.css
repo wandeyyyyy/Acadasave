@@ -1,4 +1,7 @@
+body{
 
+    overflow-x: hidden;
+}
 .row {
     margin: 0 !important;
 }
@@ -206,9 +209,10 @@ hr{
     display: flex;
 }
 .lastcard{
- padding: 10px 70px;
+ padding: 10px 50px;
  background: #ffffff;
  box-shadow: 0 0 10px gray;
+width: 100%;
 }
 .lastsection{
 background: #f3f4f5;
@@ -229,6 +233,10 @@ padding-bottom: 10%;
     background: #ffffff;
   padding: 5px 10px;
   box-shadow: 0 0 3px gray;
+
+}
+.lastcard2{
+overflow-x: hidden;
 }
 @media screen and (max-width: 992px) {
     .card-overall-section {
@@ -316,6 +324,18 @@ justify-content: center;
 }
 .btnstart{
     margin-top: 0;
+}
+.card2-section-item .card-overall-section .card{
+    margin-bottom: 25%;
+}
+.lastcard{
+    margin-bottom: 25%;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.card2-section-item .card-body br{
+    display: none;
 }
 }  
 
