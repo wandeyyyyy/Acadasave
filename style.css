@@ -209,10 +209,11 @@ hr{
     display: flex;
 }
 .lastcard{
- padding: 10px 50px;
+ padding: 30px 50px;
  background: #ffffff;
  box-shadow: 0 0 10px gray;
 width: 100%;
+color: grey;
 }
 .lastsection{
 background: #f3f4f5;
@@ -333,8 +334,9 @@ justify-content: center;
     width: 100%;
     margin-right: 0;
     margin-left: 0;
+    text-align: start;
 }
-.card2-section-item .card-body br{
+ .br{
     display: none;
 }
 }  
